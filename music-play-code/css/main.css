@@ -1,0 +1,192 @@
+
+/*=======RESET CSS=====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    
+   background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+   color: whitesmoke;
+}
+
+/*=======NAVBAR=====*/
+#navbar{
+    top: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.nav-h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+/*=======CONTAINER=====*/
+#container{
+    display: flex;
+    width: 100%;
+    height: 150vh;
+    justify-content: center;
+}
+
+
+/*=======PLAY=====*/
+.figure{
+    flex-direction: column;
+    display: flex;
+    width: 380px;
+    height: 81vh;
+    justify-content: center;
+    margin-top: 10vh;
+    padding: auto;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+img{ 
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 340px;
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 20px;
+}
+
+h2{
+   color: #000;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+   
+}
+
+.img-i{
+    margin-left: 25px;
+}
+
+
+
+#controles{
+    display:flex;
+    width: 375px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    border-radius: 15px;
+    border-top: 3px solid #fff;
+   
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 5px;
+    
+}
+   
+.barra{
+    display: flex;
+    width: 320px;
+    height: 6px;
+    border-radius: 5px;
+    border:  2px solid #fff;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.progress{
+    height: 6px;
+    width: 0;
+}
+
+
+.ponto{
+    width: 25px;
+    height: 25px;
+    background-color: #4158D0;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+
+.tempo{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+.player{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    color: #fff;
+   
+
+}
+
+.botao-play, .botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+.setas{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
+
+
+/*=======Descrição=====*/
+.descricao{
+    width: 350px;
+    color: #333;
+   
+}
+
+/*=======FOOTER=====*/
+footer{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+footer p{
+
+    text-align: center;
+    color: #2AF598;
+   
+}
