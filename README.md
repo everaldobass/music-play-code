@@ -8,7 +8,7 @@
 - Color - https://www.colourlovers.com/
 - Gradient - https://cssgradient.io/
 - Pexels - https://www.pexels.com/pt-br/
-- 
+
 Criando um **Player** - HTML5, CSS3 e JavaScript.
 
 <img src='./music-play-code/img/player.png ' width='100%'/>
