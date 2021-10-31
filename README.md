@@ -1,6 +1,6 @@
 # Player Music.
 #### Créditos:
-- Código fonte - Desenvolvido no Link:
+- Projeto de referência no Link:
 #### Canal:
 - João Tinti - https://www.youtube.com/channel/UChjskKGW9ebyuVgNYpEZ92Q
 #### Links:
